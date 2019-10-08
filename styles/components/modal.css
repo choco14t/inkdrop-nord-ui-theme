@@ -18,7 +18,7 @@
   display: none;
   z-index: 1001;
   text-align: left;
-  background: #2E3235;
+  background: #2E3440;
   border: none;
   -webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
@@ -62,7 +62,7 @@
   z-index: 1;
   opacity: 0.8;
   font-size: 1.25em;
-  color: #2E3235;
+  color: #2E3440;
   width: 2.25rem;
   height: 2.25rem;
   padding: 0.625rem 0rem 0rem 0rem;
@@ -78,7 +78,7 @@
 .ui.modal > .header {
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  background: #2E3235;
+  background: #2E3440;
   margin: 0em;
   padding: 1.25rem 1.5rem;
   -webkit-box-shadow: none;
@@ -102,7 +102,7 @@
   font-size: 1em;
   line-height: 1.4;
   padding: 1.5rem;
-  background: #2E3235;
+  background: #2E3440;
 }
 .ui.modal > .image.content {
   display: -webkit-box;
@@ -170,7 +170,7 @@
 ---------------*/
 
 .ui.modal > .actions {
-  background: #34393D;
+  background: #3B4252;
   padding: 1rem 1rem;
   border-top: 1px solid rgba(24, 26, 28, 0.45);
   text-align: right;
@@ -224,7 +224,7 @@
   .ui.modal > .close {
     top: 1.0535rem;
     right: 1rem;
-    color: #DDDDDD;
+    color: #D8DEE9;
   }
 }
 
@@ -300,7 +300,7 @@
   border-radius: 0em;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 .ui.basic.modal > .header,
 .ui.basic.modal > .content,
@@ -308,14 +308,14 @@
   background-color: transparent;
 }
 .ui.basic.modal > .header {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 .ui.basic.modal > .close {
   top: 1rem;
   right: 1.5rem;
 }
 .ui.inverted.dimmer > .basic.modal {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 .ui.inverted.dimmer > .ui.basic.modal > .header {
   color: rgba(255, 255, 255, 0.95);
@@ -337,7 +337,7 @@
 /* Tablet and Mobile */
 @media only screen and (max-width: 991px) {
   .ui.basic.modal > .close {
-    color: #2E3235;
+    color: #2E3440;
   }
 }
 
@@ -445,7 +445,7 @@
 .ui.fullscreen.modal > .close {
   top: 1.0535rem;
   right: 1rem;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 /*--------------

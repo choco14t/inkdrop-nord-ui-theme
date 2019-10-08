@@ -17,10 +17,10 @@
   position: relative;
   min-height: 1em;
   margin: 1em 0em;
-  background: #4B5257;
+  background: #3B4252;
   padding: 1em 1.5em;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: #D8DEE9;
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, -webkit-box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
@@ -264,7 +264,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #F9FAFB;
+  background-color: #2E3440;
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -360,26 +360,26 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #F9FAFB;
+  background-color: #2E3440;
   color: rgba(0, 0, 0, 0.9);
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #DB2828;
-  -webkit-box-shadow: 0px 0px 0px 1px #DB2828 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #DB2828 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #BF616A;
+  -webkit-box-shadow: 0px 0px 0px 1px #BF616A inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #BF616A inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #c82121;
+  color: #b84f59;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #C06D36;
-  -webkit-box-shadow: 0px 0px 0px 1px #C06D36 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #C06D36 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #D08770;
+  -webkit-box-shadow: 0px 0px 0px 1px #D08770 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #D08770 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.orange.message .header {
-  color: #ac6230;
+  color: #ca775d;
 }
 .ui.yellow.message {
   background-color: #FFF8DB;
@@ -437,12 +437,12 @@
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #A333C8;
-  -webkit-box-shadow: 0px 0px 0px 1px #A333C8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #A333C8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #B48EAD;
+  -webkit-box-shadow: 0px 0px 0px 1px #B48EAD inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #B48EAD inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #922eb4;
+  color: #aa7fa2;
 }
 .ui.pink.message {
   background-color: #FFE3FB;

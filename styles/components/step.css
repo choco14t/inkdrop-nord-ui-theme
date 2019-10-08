@@ -71,8 +71,8 @@
           justify-content: center;
   margin: 0em 0em;
   padding: 1.14285714em 2em;
-  background: #2E3235;
-  color: #DDDDDD;
+  background: #2E3440;
+  color: #D8DEE9;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0em;
@@ -93,7 +93,7 @@
   top: 50%;
   right: 0%;
   border: medium none;
-  background-color: #2E3235;
+  background-color: #2E3440;
   width: 1.14285714em;
   height: 1.14285714em;
   border-style: solid;
@@ -147,7 +147,7 @@
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -339,7 +339,7 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #34393D;
+  background: #3B4252;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -361,7 +361,7 @@
   background: #4B5257;
 }
 .ui.steps .step.active .title {
-  color: #C06D36;
+  color: #8FBCBB;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -389,19 +389,19 @@
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #DCDDDE;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #21BA45;
+  color: #A3BE8C;
 }
 
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #2E3235;
+  background: #2E3440;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
@@ -410,7 +410,7 @@
   color: rgba(255, 255, 255, 0.2);
 }
 .ui.steps .disabled.step:after {
-  background: #2E3235;
+  background: #2E3440;
 }
 
 

@@ -1352,24 +1352,24 @@
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #DB2828 !important;
-  color: #2E3235;
+  background-color: #BF616A !important;
+  color: #2E3440;
 }
 
 /* Orange */
 .ui.grid > .orange.row,
 .ui.grid > .orange.column,
 .ui.grid > .row > .orange.column {
-  background-color: #C06D36 !important;
-  color: #2E3235;
+  background-color: #D08770 !important;
+  color: #2E3440;
 }
 
 /* Yellow */
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #FBBD08 !important;
-  color: #2E3235;
+  background-color: #EBCB8B !important;
+  color: #2E3440;
 }
 
 /* Olive */
@@ -1377,15 +1377,15 @@
 .ui.grid > .olive.column,
 .ui.grid > .row > .olive.column {
   background-color: #B5CC18 !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Green */
 .ui.grid > .green.row,
 .ui.grid > .green.column,
 .ui.grid > .row > .green.column {
-  background-color: #21BA45 !important;
-  color: #2E3235;
+  background-color: #A3BE8C !important;
+  color: #2E3440;
 }
 
 /* Teal */
@@ -1393,7 +1393,7 @@
 .ui.grid > .teal.column,
 .ui.grid > .row > .teal.column {
   background-color: #00B5AD !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Blue */
@@ -1401,7 +1401,7 @@
 .ui.grid > .blue.column,
 .ui.grid > .row > .blue.column {
   background-color: #2185D0 !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Violet */
@@ -1409,15 +1409,15 @@
 .ui.grid > .violet.column,
 .ui.grid > .row > .violet.column {
   background-color: #6435C9 !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Purple */
 .ui.grid > .purple.row,
 .ui.grid > .purple.column,
 .ui.grid > .row > .purple.column {
-  background-color: #A333C8 !important;
-  color: #2E3235;
+  background-color: #B48EAD !important;
+  color: #2E3440;
 }
 
 /* Pink */
@@ -1425,7 +1425,7 @@
 .ui.grid > .pink.column,
 .ui.grid > .row > .pink.column {
   background-color: #E03997 !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Brown */
@@ -1433,23 +1433,23 @@
 .ui.grid > .brown.column,
 .ui.grid > .row > .brown.column {
   background-color: #A5673F !important;
-  color: #2E3235;
+  color: #2E3440;
 }
 
 /* Grey */
 .ui.grid > .grey.row,
 .ui.grid > .grey.column,
 .ui.grid > .row > .grey.column {
-  background-color: #767676 !important;
-  color: #2E3235;
+  background-color: #4C566A !important;
+  color: #2E3440;
 }
 
 /* Black */
 .ui.grid > .black.row,
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
-  background-color: #F9FAFB !important;
-  color: #2E3235;
+  background-color: #2E3440 !important;
+  color: #2E3440;
 }
 
 /*----------------------

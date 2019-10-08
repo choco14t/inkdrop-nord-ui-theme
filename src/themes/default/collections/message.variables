@@ -12,7 +12,7 @@
 @verticalPadding: 1em;
 @horizontalPadding: 1.5em;
 @padding: @verticalPadding @horizontalPadding;
-@background: @darkWhite;
+@background: @nord1;
 @lineHeightOffset: ((@lineHeight - 1em) / 2);
 
 @borderRadius: @defaultBorderRadius;

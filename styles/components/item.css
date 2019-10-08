@@ -186,7 +186,7 @@
   max-width: auto;
   font-size: 1em;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 /*--------------
@@ -241,7 +241,7 @@
   color: rgba(255, 255, 255, 0.95);
 }
 .ui.items > .item > .content > a.header:hover {
-  color: #C06D36;
+  color: #8FBCBB;
 }
 
 /* Meta */
@@ -249,7 +249,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .ui.items > .item .meta > a:not(.ui):hover {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 /*--------------
@@ -452,7 +452,7 @@
 }
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #C06D36;
+  color: #8FBCBB;
 }
 
 /*--------------

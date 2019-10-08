@@ -163,7 +163,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: bold;
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 /* Description */
@@ -183,11 +183,11 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #C06D36;
+  color: #8FBCBB;
 }
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #C06D36;
+  color: #8FBCBB;
 }
 
 /* Linked Item Icons */
@@ -200,11 +200,11 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #C06D36 !important;
+  color: #8FBCBB !important;
 }
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #C06D36 !important;
+  color: #8FBCBB !important;
 }
 
 /* Floated Content */
@@ -334,7 +334,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 
 
@@ -368,7 +368,7 @@ ol.ui.list ol li,
 }
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #C06D36;
+  color: #8FBCBB;
 }
 
 /* Linking Content */
@@ -376,7 +376,7 @@ ol.ui.list ol li,
   color: rgba(0, 0, 0, 0.9) !important;
 }
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #C06D36 !important;
+  color: #8FBCBB !important;
 }
 
 /*-------------------
@@ -568,7 +568,7 @@ ul.ui.list li:before,
 ul.ui.list li:before,
 .ui.bulleted.list .list > a.item:before,
 .ui.bulleted.list > a.item:before {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 ul.ui.list ul,
 .ui.bulleted.list .list {
@@ -590,7 +590,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 }
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: #DDDDDD;
+  color: #D8DEE9;
 }
 ul.ui.horizontal.bulleted.list li:first-child::before,
 .ui.horizontal.bulleted.list > .item:first-child::before {
@@ -630,7 +630,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: #DDDDDD;
+  color: #D8DEE9;
   vertical-align: middle;
   opacity: 0.8;
 }

@@ -1,3 +1,99 @@
 /*******************************
         Global Overrides
 *******************************/
+
+/*-------------------
+      Side Bar
+--------------------*/
+@sidebarBackground: @nord0;
+@sidebarMenuItemActiveBackground: #434C5ECC;
+@sidebarMenuSectionColor: @nord4;
+@sidebarMenuItemColor: @nord4;
+@sidebarMenuActionColor: @nord4;
+@sidebarMenuActionHoverColor: @nord7;
+@sidebarSyncStatusViewBackground: @nord1;
+@sidebarSyncStatusViewTextColor: @nord4;
+@sidebarSyncStatusViewDetailColor: @nord4;
+
+/*-------------------
+      Note List Bar
+--------------------*/
+@noteListBarBackground: @nord0;
+@noteListViewItemColor: @nord4;
+@noteListViewItemSeparatorBorder: 1px solid @nord3;
+@noteListViewItemDateColor: @nord7;
+@noteListViewItemTagColor: @nord4;
+@noteListViewItemActiveBackground: #434C5ECC;
+@noteListViewItemActiveColor: @nord4;
+@noteListViewItemActiveDateColor: @nord7;
+@noteListViewItemActiveTagColor: @nord4;
+@noteListViewItemFocusInnerShadow: none;
+@noteSearchBarBackground: @nord0;
+@noteSearchBarBorderBottom: 1px solid @nord3;
+@noteSearchBarInputBorder: none;
+@noteSearchBarInputBackground: @nord1;
+
+/*-------------------
+      Header Note Menu
+--------------------*/
+@headerNoteMenuBackground: transparent;
+@headerNoteMenuColor: @nord4;
+@headerNoteMenuActionItemSeparatorBorder: 1px solid @nord3;
+@headerNoteMenuEncryptButtonColor: @yellowTextColor;
+@headerNoteMenuEncryptButtonBackground: @yellowBackground;
+
+/*-------------------
+      Other Overrides
+--------------------*/
+/* Sidebar */
+.sidebar-menu, .note-list-bar-layout {
+  border-right: 1px solid @nord3;
+}
+
+/* Editor */
+.editor-title-input > input,
+.editor-title-input > input:focus,
+.note-tags-bar-input > .ui.input > input,
+.note-tags-bar-input > .ui.input > input:focus {
+  background: @nord0!important;
+}
+
+.mde-toolbar {
+  border-top: 1px solid @nord3;
+}
+
+.mde-toolbar i.separator {
+  border-left: 1px solid @nord3;
+}
+
+/* Modal */
+.ui.modal.transition,
+.ui.modal.transition > .header,
+.ui.modal.transition > .content {
+  background: @nord0;
+  color: @nord4;
+}
+
+.ui.modal.transition > .actions {
+  background: @nord0;
+}
+
+.ui.modal > .header {
+  border-bottom: 1px solid @nord3;
+}
+
+.ui.modal.transition > .actions > .button.primary {
+  color: @nord0;
+  background: #88C0D0B3;
+}
+
+.ui.modal.transition > .actions > .button.primary:hover {
+  color: @nord0;
+  background: @nord7;
+}
+
+.ui.message > p > a {
+  color: @nord7;
+}
+
+/* Preferences */

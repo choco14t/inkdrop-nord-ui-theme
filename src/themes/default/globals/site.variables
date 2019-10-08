@@ -75,15 +75,15 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : @nord1;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
 
 /* Input Text Color */
 @inputColor: @textColor;
-@inputPlaceholderColor: darken(@textColor, 40);
-@inputPlaceholderFocusColor: darken(@textColor, 40);
+@inputPlaceholderColor: #D8DEE999;
+@inputPlaceholderFocusColor: #D8DEE999;
 
 /* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : @nord0;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : @nord4;
 
 /*-------------------
       Paragraph
@@ -216,23 +216,52 @@
 @widescreenMonitorBreakpoint : 1920px;
 
 /*-------------------
+      Nord Colors
+--------------------*/
+// Colors from https://www.nordtheme.com/docs/colors-and-palettes
+
+// Polar Night
+@nord0: #2E3440;
+@nord1: #3B4252;
+@nord2: #434C5E;
+@nord3: #4C566A;
+
+// Snow Storm
+@nord4: #D8DEE9;
+@nord5: #E5E9F0;
+@nord6: #ECEFF4;
+
+// Frost
+@nord7: #8FBCBB;
+@nord8: #88C0D0;
+@nord9: #81A1C1;
+@nord10: #5E81AC;
+
+// Aurora
+@nord11: #BF616A;
+@nord12: #D08770;
+@nord13: #EBCB8B;
+@nord14: #A3BE8C;
+@nord15: #B48EAD;
+
+/*-------------------
       Site Colors
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #C06D36;
-@yellow           : #FBBD08;
+@red              : @nord11;
+@orange           : @nord12;
+@yellow           : @nord13;
 @olive            : #B5CC18;
-@green            : #21BA45;
+@green            : @nord14;
 @teal             : #00B5AD;
 @blue             : #2185D0;
 @violet           : #6435C9;
-@purple           : #A333C8;
+@purple           : @nord15;
 @pink             : #E03997;
 @brown            : #A5673F;
-@grey             : #767676;
-@black            : #F9FAFB;
+@grey             : @nord3;
+@black            : @nord0;
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -251,10 +280,10 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
+@offWhite         : @nord1;
 @darkWhite        : #4B5257;
 @midWhite         : #666E74;
-@white            : #2E3235;
+@white            : @nord0;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -733,7 +762,7 @@
 ;
 
 /*---  Colors  ---*/
-@primaryColorHover        : saturate(darken(@primaryColor, 5), 10, relative);
+@primaryColorHover        : @nord7;
 @secondaryColorHover      : saturate(lighten(@secondaryColor, 5), 10, relative);
 @lightPrimaryColorHover   : saturate(darken(@lightPrimaryColor, 5), 10, relative);
 @lightSecondaryColorHover : saturate(lighten(@lightSecondaryColor, 5), 10, relative);

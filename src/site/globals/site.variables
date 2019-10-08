@@ -7,8 +7,8 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #C06D36;
-@primaryColorFocus: #C06D36;
+@primaryColor: @nord7;
+@primaryColorFocus: @nord7;
 @linkHoverColor: @primaryColor;
 
 
@@ -66,20 +66,20 @@
       Preferences
 --------------------*/
 @preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: rgba(192, 109, 54, 0.2);
-@preferencesViewBackground: @offWhite;
+@preferencesSidebarItemActiveBackground: #434C5ECC;
+@preferencesViewBackground: @nord0;
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
-@taskIconOnHold: orange;
-@taskIconCompleted: limegreen;
-@taskIconDropped: lightcoral;
+@taskIconActive: #D8DEE9CC;
+@taskIconOnHold: @orange;
+@taskIconCompleted: @green;
+@taskIconDropped: @red;
 
 /*-------------------
   Task Progress View
 --------------------*/
 @taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
 @taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewCompletedColor: @green;
