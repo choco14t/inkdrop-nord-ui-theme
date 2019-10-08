@@ -8,7 +8,7 @@ This Repository is only UI theme. If you want to install fully Nord theme, you n
 
 ## Screenshot
 
-![screenshot](https://github.com/choco14t/inkdrop-nord-ui-theme/blob/master/Screenshot.png)
+![screenshot](https://raw.githubusercontent.com/choco14t/inkdrop-nord-ui-theme/master/Screenshot.png)
 
 ## Installation
 
