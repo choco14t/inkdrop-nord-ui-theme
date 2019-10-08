@@ -1,8 +1,8 @@
 {
-  "name": "default-dark-ui",
-  "version": "2.0.0",
+  "name": "nord-ui",
+  "version": "0.0.0",
   "theme": "ui",
-  "description": "Default Dark UI Theme for Inkdrop",
+  "description": "Nord UI Theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -14,7 +14,7 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "author": "choco14t<chocoh14t@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "semantic-ui": "^2.4.2"
