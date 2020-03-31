@@ -175,7 +175,7 @@
 @highlightBackground      : #FFFFFF - #CCE2FF;
 @highlightColor           : @textColor;
 
-@inputHighlightBackground : #FFFFFF - rgba(100, 100, 100, 0.4);
+@inputHighlightBackground : rgba(76, 86, 106, 0.8);
 @inputHighlightColor      : @textColor;
 
 

@@ -688,19 +688,25 @@ a:hover {
 
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #9b9b9b;
+  background-color: rgba(76, 86, 106, 0.8);
   color: #D8DEE9;
 }
 
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: #9b9b9b;
+  background-color: rgba(76, 86, 106, 0.8);
+  color: #D8DEE9;
+}
+
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(76, 86, 106, 0.8);
   color: #D8DEE9;
 }
 
 textarea::selection,
 input::selection {
-  background-color: #9b9b9b;
+  background-color: rgba(76, 86, 106, 0.8);
   color: #D8DEE9;
 }
 
@@ -895,7 +901,7 @@ input::selection {
    --------------------*/
   --highlight-background: #331d00;
   --highlight-color: #D8DEE9;
-  --input-highlight-background: #9b9b9b;
+  --input-highlight-background: rgba(76, 86, 106, 0.8);
   --input-highlight-color: #D8DEE9;
   /*-------------------
          Loader
