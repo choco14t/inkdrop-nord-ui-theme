@@ -1,6 +1,6 @@
 {
   "name": "nord-ui",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "theme": "ui",
   "description": "Nord UI Theme for Inkdrop",
   "styleSheets": [
