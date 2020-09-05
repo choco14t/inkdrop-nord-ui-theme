@@ -698,6 +698,12 @@ input::-moz-selection {
   color: #D8DEE9;
 }
 
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: #9b9b9b;
+  color: #D8DEE9;
+}
+
 textarea::selection,
 input::selection {
   background-color: #9b9b9b;
@@ -733,11 +739,11 @@ input::selection {
 
 /* Editor */
 
-.editor-title-input > input,
-.editor-title-input > input:focus,
+.editor-header-title-input > input,
+.editor-header-title-input > input:focus,
 .note-tags-bar-input > .ui.input > input,
 .note-tags-bar-input > .ui.input > input:focus {
-  background: #2E3440 !important;
+  background: transparent!important;
 }
 
 .mde-toolbar {
@@ -1370,7 +1376,7 @@ input::selection {
   --floating-shadow-hover: 0px 2px 4px 0px rgba(34, 36, 38, 0.15),
     0px 2px 10px 0px rgba(34, 36, 38, 0.25);
   /*---  Colors  ---*/
-  --primary-color-hover: #8FBCBB;
+  --primary-color-hover: #9dc7c7;
   --secondary-color-hover: #384050;
   --red-hover: #bd4a55;
   --orange-hover: #cf7457;
@@ -1591,6 +1597,9 @@ input::selection {
         Note List Bar
   --------------------*/
   --note-list-bar-background: #2E3440;
+  --note-list-bar-pinned-section-header-background: #2E3440;
+  --note-list-bar-pinned-section-header-border-bottom: 1px solid #4C566A;
+  --note-list-bar-pinned-section-footer-border-bottom: 4px solid #4C566A;
   --note-list-view-item-color: #D8DEE9;
   --note-list-view-item-separator-border: 1px solid #4C566A;
   --note-list-view-item-date-color: #8FBCBB;
@@ -1609,6 +1618,8 @@ input::selection {
   --------------------*/
   --header-note-menu-background: transparent;
   --header-note-menu-color: #D8DEE9;
+  --header-note-menu-action-item-active-background: rgba(49, 204, 236, 0.3);
+  --header-note-menu-action-item-active-border: 1px solid rgba(49, 204, 236, 0.8);
   --header-note-menu-action-item-separator-border: 1px solid #4C566A;
   --header-note-menu-encrypt-button-color: #B58105;
   --header-note-menu-encrypt-button-background: #FFF8DB;
@@ -5365,7 +5376,7 @@ input::selection {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #8FBCBB;
+  background-color: #9dc7c7;
   color: #2E3440;
   text-shadow: none;
 }
@@ -5405,9 +5416,9 @@ input::selection {
 .ui.basic.primary.buttons .button:hover,
 .ui.basic.primary.button:hover {
   background: transparent !important;
-  -webkit-box-shadow: 0px 0px 0px 1px #8FBCBB inset !important;
-  box-shadow: 0px 0px 0px 1px #8FBCBB inset !important;
-  color: #8FBCBB !important;
+  -webkit-box-shadow: 0px 0px 0px 1px #9dc7c7 inset !important;
+  box-shadow: 0px 0px 0px 1px #9dc7c7 inset !important;
+  color: #9dc7c7 !important;
 }
 
 .ui.basic.primary.buttons .button:focus,
@@ -5415,7 +5426,7 @@ input::selection {
   background: transparent !important;
   -webkit-box-shadow: 0px 0px 0px 1px #8FBCBB inset !important;
   box-shadow: 0px 0px 0px 1px #8FBCBB inset !important;
-  color: #8FBCBB !important;
+  color: #9dc7c7 !important;
 }
 
 .ui.basic.primary.buttons .active.button,

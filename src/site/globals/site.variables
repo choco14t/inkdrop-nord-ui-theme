@@ -39,8 +39,11 @@
       Note List Bar
 --------------------*/
 @noteListBarBackground: #34393D;
+@noteListBarPinnedSectionHeaderBackground: @black;
+@noteListBarPinnedSectionHeaderBorderBottom: 1px solid @nord3;
+@noteListBarPinnedSectionFooterBorderBottom: 4px solid @nord3;
 @noteListViewItemColor: @mutedTextColor;
-@noteListViewItemSeparatorBorder: 1px solid @white;
+@noteListViewItemSeparatorBorder: 1px solid @nord3;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
 @noteListViewItemActiveBackground: @primaryColor;
@@ -58,6 +61,8 @@
 --------------------*/
 @headerNoteMenuBackground: transparent;
 @headerNoteMenuColor: @lightTextColor;
+@headerNoteMenuActionItemActiveBackground: rgba(49, 204, 236, 0.3);
+@headerNoteMenuActionItemActiveBorder: 1px solid rgba(49, 204, 236, 0.8);
 @headerNoteMenuActionItemSeparatorBorder: 1px solid @whiteDown;
 @headerNoteMenuEncryptButtonColor: @yellowTextColor;
 @headerNoteMenuEncryptButtonBackground: @yellowBackground;

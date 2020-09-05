@@ -51,11 +51,11 @@
 }
 
 /* Editor */
-.editor-title-input > input,
-.editor-title-input > input:focus,
+.editor-header-title-input > input,
+.editor-header-title-input > input:focus,
 .note-tags-bar-input > .ui.input > input,
 .note-tags-bar-input > .ui.input > input:focus {
-  background: @nord0!important;
+  background: transparent!important;
 }
 
 .mde-toolbar {
