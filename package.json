@@ -7,7 +7,7 @@
     "theme.min.css"
   ],
   "scripts": {
-    "run": "gulp",
+    "start": "gulp",
     "build": "gulp build"
   },
   "keywords": [
@@ -21,6 +21,6 @@
     "semantic-ui": "^2.4.2"
   },
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
   }
 }
