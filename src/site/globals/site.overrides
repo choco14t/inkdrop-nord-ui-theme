@@ -967,6 +967,9 @@
         Note List Bar
   --------------------*/
   --note-list-bar-background: @noteListBarBackground;
+  --note-list-bar-pinned-section-header-background: @noteListBarPinnedSectionHeaderBackground;
+  --note-list-bar-pinned-section-header-border-bottom: @noteListBarPinnedSectionHeaderBorderBottom;
+  --note-list-bar-pinned-section-footer-border-bottom: @noteListBarPinnedSectionFooterBorderBottom;
   --note-list-view-item-color: @noteListViewItemColor;
   --note-list-view-item-separator-border: @noteListViewItemSeparatorBorder;
   --note-list-view-item-date-color: @noteListViewItemDateColor;
@@ -986,6 +989,8 @@
   --------------------*/
   --header-note-menu-background: @headerNoteMenuBackground;
   --header-note-menu-color: @headerNoteMenuColor;
+  --header-note-menu-action-item-active-background: @headerNoteMenuActionItemActiveBackground;
+  --header-note-menu-action-item-active-border: @headerNoteMenuActionItemActiveBorder;
   --header-note-menu-action-item-separator-border: @headerNoteMenuActionItemSeparatorBorder;
   --header-note-menu-encrypt-button-color: @headerNoteMenuEncryptButtonColor;
   --header-note-menu-encrypt-button-background: @headerNoteMenuEncryptButtonBackground;

@@ -762,7 +762,7 @@
 ;
 
 /*---  Colors  ---*/
-@primaryColorHover        : @nord7;
+@primaryColorHover        : saturate(lighten(@nord7, 5), 10, relative);
 @secondaryColorHover      : saturate(lighten(@secondaryColor, 5), 10, relative);
 @lightPrimaryColorHover   : saturate(darken(@lightPrimaryColor, 5), 10, relative);
 @lightSecondaryColorHover : saturate(lighten(@lightSecondaryColor, 5), 10, relative);
