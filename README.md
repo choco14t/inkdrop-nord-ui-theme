@@ -1,5 +1,8 @@
 # Nord UI
 
+![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/nord-ui&style=for-the-badge)
+![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/nord-ui&style=for-the-badge)
+
 Nord UI theme for Inkdrop.
 
 ### Note
